@@ -1,0 +1,325 @@
+html {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Helvetica;
+
+}
+
+
+header{
+    background-image: url(/resources/glasses-bg.png);
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+    padding-top: 1rem;
+    }
+
+
+.container {
+    max-width: 960px;
+    margin: auto;
+} 
+    
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue; 
+    color: white;
+    padding: 1rem 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+
+.title img {
+    height: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+}
+
+
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.small-menu {
+    display:none;
+}
+
+.menu-items li {
+    display: inline;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.menu-items a {
+    text-decoration: none;
+}
+
+
+.banner  {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 2rem;
+    }
+
+.main-banner {
+    background-color: white;
+    margin-top: 10rem;
+    
+}
+
+h1 {
+    padding: 1.5rem 5rem;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+@media only screen and (max-width: 1024px) {
+   
+header{
+    padding-top: 0;
+    height: 22rem;
+    width: 100%;
+    }
+    
+.banner  {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 2rem;
+    }
+
+ .main-banner {
+    background-color: white;
+    margin-right: 2rem;
+    margin-top: 5rem;
+    
+} 
+    
+    h1 {
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+    line-height: 1.2;
+}
+
+}
+
+@media only screen and (max-width: 470px) {
+    
+   header{
+    padding-top: 0;
+    background-position: 20%;
+    height: 17rem;
+    width: 100%;
+    }
+    
+.banner  {
+    display: flex;
+    padding: 0;
+    margin: 0;
+   
+    }
+
+ .main-banner {
+    background-color: white;
+    margin-top: 9rem;
+    margin-right: 0;
+    width: 100%;
+    
+} 
+    
+    h1 {
+    padding: 1rem auto;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: bold;
+} 
+    
+    .small-menu {
+    display: block;
+}
+    
+    .big-menu {
+    display: none;
+    }
+    
+    .title span {
+        display: none;
+    }
+    
+}
+
+
+/* Body services */
+
+.services {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+    height: 8rem;
+}
+
+#flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5rem;
+    justify-content: space-between;
+   }
+
+.fittings {
+    margin: 0 6rem;
+}
+
+.services img {
+    width: 5rem;
+        
+}
+
+.delivery-img img {
+   width: 5rem; 
+}
+
+.paper-img img {
+    width: 3.5rem;
+}
+
+
+.services span {
+    text-align: center;
+}
+
+@media only screen and (max-width: 470px) {
+    
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    margin-top: 3.77rem ;
+   
+}
+
+#flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5rem;
+    justify-content: space-between;
+    height: 7rem;
+    
+   }
+
+.fittings {
+    margin: 1.54rem 0;
+    
+}
+    
+    .services span {
+    text-align: center;
+    font-size: 0.77rem;
+}
+
+    
+    
+}
+
+
+/* Body text */
+
+
+.text {
+    display: flex;
+    justify-content: center;
+ }
+
+#section {
+    width: 35%;
+    margin-right: 5%;
+    margin-bottom: 5rem;
+}
+
+.section-header {
+    
+}
+
+.section-header h2 {
+    color: white;
+    background-color: cadetblue;
+    width: 10rem;
+    font-weight: bold;
+    padding: 0.5rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 470px) {
+    
+    
+    .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    #section {
+    width: 100%;
+    margin-right: 5%;
+    margin-bottom: 4rem;
+}
+    
+    .section-header h2 {
+    color: white;
+    background-color: cadetblue;
+        text-align: center;
+    width: 100%;
+    font-weight: bold;
+    padding: 0.5rem 1.25rem;
+    margin-bottom: 1rem;
+}
+    p {
+        font-size: 0.77rem;
+    }
+    
+}
+
+
+/* Footer */
+
+
+footer {
+    background-color: azure;
+    padding: 4rem;
+    
+    
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer img {
+    height: 1.5rem;
+    margin-right: 1rem;
+    
+}
+
+@media only screen and (max-width: 470px) {
+    
+    .logo-footer span {
+        display: none;
+    }
+    
+    .logo-footer img {
+    height: 1.5rem;
+    margin-right: 0;
+        
+    
+}
+    
+}
